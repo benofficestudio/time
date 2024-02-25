@@ -1,0 +1,63 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-image: url('cn.png');
+  background-color: lightblue;
+  /* background-blend-mode: multiply; */
+}
+
+h1 {
+  color: black;
+  font-family: "Helvetica Neue";
+  font-weight: 400;
+  padding-left: 35px;
+  padding-bottom: 50px;
+  text-decoration: underline;
+  position: absolute;
+  text-transform: uppercase;
+}
+
+p{
+  margin-top: 70px;
+  font-family: "Helvetica Neue";
+  font-size: 22px;
+  line-height: 28px;
+  padding-left: 35px;
+  text-transform: uppercase;
+  position: absolute;
+    list-style-type: none;
+    color: darkblue;
+}
+
+.time{
+  -webkit-animation: spin 5s linear infinite; /* Safari */
+  animation: spin 10s linear infinite;
+}
+
+#txt{
+  font-family: "Helvetica Neue";
+  font-size: 22px;
+  text-transform: uppercase;
+  position: absolute;
+    list-style-type: none;
+    color: black;
+  background: none;
+  border: none;
+  padding-left: 35px;
+  padding-top: 250px;
+}
+
+-webkit-animation: spin 5s linear infinite; /* Safari */
+animation: spin 10s linear infinite;
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+@keyframes spin {
+  0% { transform: rotate(-0deg); }
+  100% { transform: rotate(-360deg); }
+}
