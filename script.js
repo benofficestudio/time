@@ -9,6 +9,10 @@ function startTime() {
   setTimeout(startTime, 1000);
 }
 
+let currentDate = new Date();
+let am_pm = currentDate.toLocaleTimeString();
+console.log(am_pm); // 12:48:20 PM
+
 function checkTime(i) {
   if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
   return i;

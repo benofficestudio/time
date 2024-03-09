@@ -7,23 +7,19 @@ html {
 body {
   background-image: url('cn.png');
   background-color: lightblue;
-  /* background-repeat: no-repeat; */
-  /* background-blend-mode: multiply; */
 }
 
-h1 {
+h2 {
   color: black;
-  font-family: "Helvetica Neue";
+  font-size: 22px;
+  font-family: "HelveticaNeue-Regular", "Helvetica Neue", "Helvetica Neue",     Helvetica, Arial, "Lucida Grande", sans-serif; 
   font-weight: 400;
-  padding-left: 25px;
-  padding-bottom: 50px;
-  text-decoration: underline;
-  position: absolute;
+  padding-left: 35px;
   text-transform: uppercase;
+  padding-top: 8px;
 }
 
 p{
-  margin-top: 70px;
   font-family: "Helvetica Neue";
   font-weight: 400;
   font-size: 22px;
@@ -44,6 +40,6 @@ p{
     color: black;
   background: none;
   border: none;
-  padding-left: 25px;
-  padding-top: 250px;
+  padding-left: 35px;
+  padding-top: 125px;
 }
